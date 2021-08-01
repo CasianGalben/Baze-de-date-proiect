@@ -1,0 +1,21 @@
+create view vedere_clienti
+as select fname,lname,phone_number
+from detalii_clienti
+where city='timisoara'
+
+select * from vedere_clienti;
+
+create view vedere_car_an
+as select registration_number,model_name,make
+from car
+where MODEL_YEAR='2017'
+
+select * from vedere_car_an;
+
+
+create view vedere_car_marca
+as select registration_number,model_name,make
+from car
+where MAKE='AUDI'
+
+select * from vedere_car_marca;

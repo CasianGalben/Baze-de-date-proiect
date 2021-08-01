@@ -1,0 +1,26 @@
+select count(booking_id)  
+from Booking_details 
+where Booking_status=0
+
+Afisarea numarului de rezervari posibile din agetie(cate masini nu sunt inchiriate)
+
+
+select lname, email_id, zipcode 
+from detalii_clienti 
+order by lname, zipcode DESC
+
+Afiseaza tabelul ordonat crescator dupa numele de familie si descrescator dupa cosul postal
+
+
+select * from car 
+where MILEAGE<=67000
+
+Select * from Categoria_Masinii 
+where cost_per_day<=600 
+and no_of_luggage=5
+
+
+select location_ID, Location_Name, Street, Zipcode 
+from LOCATION_DETAILS
+where street like 'Vasile Parvan' 
+order by zipcode desc 

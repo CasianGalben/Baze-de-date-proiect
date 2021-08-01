@@ -1,0 +1,7 @@
+insert into detalii_clienti values ('KS61151','Ion','Vasile','Popescu','0755511230','p0pescu.i0n@yahoo.ro','Strada Mihai Viteazul','Timisoara','Timis','250138'); (1) \Pers1 Detalii clienti
+insert into categoria_masinii values('SUV',5,5,500); (2) \Pers1 categoria masinii
+insert into car values('TM57UVT','Q5','AUDI',2020,67000,'SUV',0); (3) \Pers1 masina
+insert into booking_details values('CH150',TO_TIMESTAMP('2021-01-20 10:00:00',
+'YYYY-MM-DD HH24:MI:SS'),TO_TIMESTAMP('2021-01-25 10:00:00',
+'YYYY-MM-DD HH24:MI:SS'),'0','L150','L150','TM57UVT','KS61151',TO_TIMESTAMP('2021-01-25 10:00:00', 'YYYY-MM-DD HH24:MI:SS')); (4) \Pers1 Inchiriere
+insert into location_details values('L150','UVT','Vasile Parvan','Timisoara','Timis','240298'); (5)\Pers1 Locatie
